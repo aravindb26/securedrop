@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:20.04
 
 # additional meta-data makes it easier to clean up, find
 LABEL org="Freedom of the Press"
