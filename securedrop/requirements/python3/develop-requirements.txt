@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes --output-file=requirements/python3/develop-requirements.txt ../admin/requirements-ansible.in ../admin/requirements.in requirements/python3/develop-requirements.in requirements/python3/translation-requirements.in
 #
-ansible-core==2.13.7 \
+ansible-core==2.18.0 \
     --hash=sha256:6005c24e45ff59497a7fe24411825fcba862585bc6bde83d6d48242c97042aba \
     --hash=sha256:a9d5f942ff0dcbeec3d7183a898ea4f656d233d6055d4bc8e22e37b013b1881a
     # via ansible
@@ -12,7 +12,7 @@ ansible-lint==4.2.0 \
     --hash=sha256:b9fc9a6564f5d60a4284497f966f38ef78f0e2505edbe2bd1225f1ade31c2d8a \
     --hash=sha256:eb925d8682d70563ccb80e2aca7b3edf84fb0b768cea3edc6846aac7abdc414a
     # via -r requirements/python3/develop-requirements.in
-ansible==6.7.0 \
+ansible==7.0.0 \
     --hash=sha256:3cda6e67b1d42516f64ce376bb94c5186ff33d215d155432be5b3c2ec60bf112 \
     --hash=sha256:c188f3ac8a8583794aadcff0bea87895ead58c19d6f244cd0c342562706e176c
     # via
@@ -261,7 +261,7 @@ cookiecutter==1.6.0 \
     --hash=sha256:1316a52e1c1f08db0c9efbf7d876dbc01463a74b155a0d83e722be88beda9a3e \
     --hash=sha256:ed8f54a8fc79b6864020d773ce11539b5f08e4617f353de1f22d23226f6a0d36
     # via molecule
-cryptography==41.0.7 \
+cryptography==43.0.1 \
     --hash=sha256:079b85658ea2f59c4f43b70f8119a52414cdb7be34da5d019a77bf96d473b960 \
     --hash=sha256:09616eeaef406f99046553b8a40fbf8b1e70795a91885ba4c96a70793de5504a \
     --hash=sha256:13f93ce9bea8016c253b34afc6bd6a75993e5c40672ed5405a9c832f0d4a00bc \
@@ -377,7 +377,7 @@ jinja2-time==0.2.0 \
     --hash=sha256:d14eaa4d315e7688daa4969f616f226614350c48730bfa1692d2caebd8c90d40 \
     --hash=sha256:d3eab6605e3ec8b7a0863df09cc1d23714908fa61aa6986a845c20ba488b4efa
     # via cookiecutter
-jinja2==3.0.2 \
+jinja2==3.1.4 \
     --hash=sha256:827a0e32839ab1600d4eb1c4c33ec5a8edfbc5cb42dafa13b81f182f97784b45 \
     --hash=sha256:8569982d3f0889eed11dd620c706d39b60c36d6d25843961f33f77fb6bc6b20c
     # via
