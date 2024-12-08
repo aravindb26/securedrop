@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes --output-file=requirements/python3/develop-requirements.txt ../admin/requirements-ansible.in ../admin/requirements.in requirements/python3/develop-requirements.in requirements/python3/translation-requirements.in
 #
-ansible-core==2.13.7 \
+ansible-core==2.14.18rc1 \
     --hash=sha256:6005c24e45ff59497a7fe24411825fcba862585bc6bde83d6d48242c97042aba \
     --hash=sha256:a9d5f942ff0dcbeec3d7183a898ea4f656d233d6055d4bc8e22e37b013b1881a
     # via ansible
